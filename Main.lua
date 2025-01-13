@@ -64,3 +64,6 @@ function Hop()
         pcall(TPReturner)
     end
 end
+
+getgenv().Team = "Pirates" -- Change to "Marines" if needed
+getgenv().FindFruit = true
